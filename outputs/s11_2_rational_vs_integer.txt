@@ -1,0 +1,4 @@
+integers 2^a 3^b <= 1000 (a,b>=0): d^2=0.0486  (40 functions)
+rationals 2^a 3^b in [1,1000], |a|<=18,|b|<=12: d^2=0.0090 (209 functions) | same number of random frequencies: 0.0258
+rationals 2^a 3^b in [1,1000], |a|<=30,|b|<=20: d^2=0.0067 (364 functions) | same number of random frequencies: 0.0216
+rationals 2^a 3^b in [1,1000], |a|<=48,|b|<=32: d^2=0.0059 (596 functions) | same number of random frequencies: 0.0158

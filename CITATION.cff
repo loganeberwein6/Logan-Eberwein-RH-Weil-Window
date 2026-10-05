@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The truncated Weil quadratic form: inertia, visibility, structural measurements, and no-go theorems for the Riemann Hypothesis"
+authors:
+  - family-names: Eberwein
+    given-names: Logan
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0004-5650-9313"
+date-released: 2026-10-06
+repository-code: "https://github.com/loganeberwein6/Logan-Eberwein-RH-Weil-Window"

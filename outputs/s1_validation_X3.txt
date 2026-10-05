@@ -1,0 +1,6 @@
+assembly 1.2s
+double-eig of hp matrix, X=3 N=40: min 5.757397314752835e-08 (double Fourier code: 5.7573976498e-08)
+  T=5: delta* = 6.9101e+00
+  T=10: delta* = 4.1821e+00
+  T=18: delta* = 2.3303e+00
+   (double run: 9.81e-02, 1.78e-01, 9.96e-01)

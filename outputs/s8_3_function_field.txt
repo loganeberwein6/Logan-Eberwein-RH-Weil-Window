@@ -1,0 +1,7 @@
+curve y^2=x^3+x+1 over F_5: N_1=9, a=-3, Frobenius angle theta=2.306111; |alpha|=sqrt(q) (RH, Hasse)
+ window L=3*log q: W eigenvalues: 2 positive, 1 EXACTLY zero (predicted K-2g=1), 0 negative; smallest nonzero 2.200
+      pole part signature (+1,-1);  I = P - W: 1 positive eigenvalue(s)  [Hodge index]
+ window L=6*log q: W eigenvalues: 2 positive, 4 EXACTLY zero (predicted K-2g=4), 0 negative; smallest nonzero 4.712
+      pole part signature (+1,-1);  I = P - W: 1 positive eigenvalue(s)  [Hodge index]
+ window L=12*log q: W eigenvalues: 2 positive, 10 EXACTLY zero (predicted K-2g=10), 0 negative; smallest nonzero 11.238
+      pole part signature (+1,-1);  I = P - W: 1 positive eigenvalue(s)  [Hodge index]

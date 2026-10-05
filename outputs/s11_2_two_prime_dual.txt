@@ -1,0 +1,6 @@
+one-prime floors: D(2) = 0.1227, D(3) = 0.1766; two-prime floor D(2,3) = 0.0486
+  product D(2)*D(3) = 0.0217;  min = 0.1227
+  share of annihilator energy (|a|,|b|<=6):
+    a>=0,b>=0 (must vanish if orthogonal to the span): 0.0986  [orthogonality holds only for pairs used: a*log2+b*log3<=log1000]
+    axis a<0,b=0: 0.016  axis a=0,b<0: 0.009
+    mixed a<0,b>0: 0.512  a>0,b<0: 0.350  both negative: 0.014
