@@ -2,19 +2,22 @@
 
 Companion repository for the paper **"The truncated Weil quadratic form: inertia, visibility, structural measurements, and no-go theorems for the Riemann Hypothesis"** by Logan Eberwein (Independent Researcher, ORCID 0009-0004-5650-9313).
 
+**DOI:** [10.5281/zenodo.23177438](https://doi.org/10.5281/zenodo.23177438) · Continues: [10.5281/zenodo.23174797](https://doi.org/10.5281/zenodo.23174797)
+
 This is not a proof of the Riemann Hypothesis. The paper records structural results, no-go theorems, numerical laws and negative results about the truncated (window) Weil quadratic form, and the outcome of a year-long research program. The Lean 4 sources for the SR/Rees matrix program (paper §12) live in the separate repository [Logan-Eberwein-RH-Research](https://github.com/loganeberwein6/Logan-Eberwein-RH-Research).
 
 ## Contents
 
 | folder | contents |
 | --- | --- |
-| `paper/` | the paper (PDF) |
+| `paper/` | the paper: `Eberwein_Truncated_Weil_Form_2026.pdf` |
 | `code/weil_window/` | high-precision (python-flint arb) Weil-window computations for §1–§8 |
 | `code/section11/` | the four §11 computations (Eisenstein, Nyman–Beurling, large deviations, Davenport–Heilbronn) |
 | `code/exploratory/` | every exploratory script from the working sessions, kept for provenance (not all are cited in the paper) |
 | `data/` | zeta zeros, Davenport–Heilbronn zeros, ζ sampled on the critical line |
 | `outputs/` | logs of reruns of the cited computations |
 | `supplementary/OPERATOR_SUMMARY.md` | the full operator-candidate ledger (297 candidates, 124 cycles) cited in §12.12 |
+| `supplementary/archive_searches/` | the ten search ledgers summarized in §12.13 (about 5.5 MB) |
 
 ## Section-by-section map
 
@@ -46,6 +49,10 @@ Python 3.12 with the packages in `requirements.txt`. High-precision runs use pyt
 ## Status of results
 
 Numerical results are high-precision computations in truncated bases and are not interval-certified. The paper labels each result as theorem, numerical, heuristic, negative or retracted, and lists open problems in §14.
+
+## License
+
+Code (`code/`): MIT License, see `LICENSE`. Paper, data, outputs and supplementary ledgers: CC BY 4.0, see `LICENSE-CC-BY-4.0.md`.
 
 ## Citation
 
